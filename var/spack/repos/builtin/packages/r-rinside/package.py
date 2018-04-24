@@ -43,9 +43,11 @@ class RRinside(RPackage):
     available at the 'RInside' website as well."""
 
     homepage = "http://dirk.eddelbuettel.com/code/rinside.html"
-    url      = "https://cran.r-project.org/src/contrib/RInside_0.2.13.tar.gz"
+    url = "https://cran.r-project.org/src/contrib/RInside_0.2.14.tar.gz"
+    #url      = "https://cran.r-project.org/src/contrib/RInside_0.2.13.tar.gz"
     list_url = "https://cran.r-project.org/src/contrib/Archive/RInside"
 
-    version('0.2.13', '2e3c35a7bd648e9bef98d0afcc02cf88')
+    version('0.2.14', 'fc72761e22b1f597433eb53d6eb122ff')
+    #version('0.2.13', '2e3c35a7bd648e9bef98d0afcc02cf88')
 
     depends_on('r-rcpp', type=('build', 'run'))
